@@ -1,0 +1,12 @@
+127.0.0.1 - - [10/Mar/2022:19:04:12 +0800] "POST /auth/api/dologin HTTP/1.0" 200 172 http-bio-8081-exec-1 506
+127.0.0.1 - - [10/Mar/2022:19:04:31 +0800] "GET /auth/api/logout HTTP/1.0" 404 949 http-bio-8081-exec-2 7
+127.0.0.1 - - [10/Mar/2022:19:06:52 +0800] "POST /auth/api/registerbyphone HTTP/1.0" 200 56 http-bio-8081-exec-3 1777
+127.0.0.1 - - [10/Mar/2022:19:07:03 +0800] "PUT /auth/api/validatephone?user=1813157571&code=8774 HTTP/1.0" 404 949 http-bio-8081-exec-4 3
+127.0.0.1 - - [10/Mar/2022:19:24:23 +0800] "POST /auth/api/registerbyphone HTTP/1.0" 200 56 http-bio-8081-exec-1 1631
+127.0.0.1 - - [10/Mar/2022:19:24:45 +0800] "PUT /auth/api/validatephone?user=18131157571&code=8774 HTTP/1.0" 200 68 http-bio-8081-exec-2 28
+127.0.0.1 - - [10/Mar/2022:19:24:59 +0800] "POST /auth/api/dologin HTTP/1.0" 200 172 http-bio-8081-exec-3 187
+127.0.0.1 - - [10/Mar/2022:19:30:03 +0800] "GET /auth/api/logout HTTP/1.0" 404 949 http-bio-8081-exec-1 48
+127.0.0.1 - - [10/Mar/2022:19:31:05 +0800] "GET /auth/api/ckusr?name=QQ3204902930%40126.com HTTP/1.0" 200 18 http-bio-8081-exec-1 69
+127.0.0.1 - - [10/Mar/2022:19:31:28 +0800] "POST /auth/api/doregister HTTP/1.0" 200 18 http-bio-8081-exec-2 4888
+127.0.0.1 - - [10/Mar/2022:19:32:10 +0800] "PUT /auth/api/activate?user=QQ3204902930%40126.com&code=8774 HTTP/1.0" 200 68 http-bio-8081-exec-3 448
+127.0.0.1 - - [10/Mar/2022:19:32:31 +0800] "POST /auth/api/dologin HTTP/1.0" 200 172 http-bio-8081-exec-4 496
